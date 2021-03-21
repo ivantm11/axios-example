@@ -1,0 +1,18 @@
+.UserCard {
+  width: 275px;
+  min-height: 3rem;
+  margin: 0.25rem 0.5rem;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
+  .autor {
+    font-size: 14;
+    font-style: italic;
+  }
+
+  .title {
+    font-weight: bold;
+  }
+}

@@ -1,0 +1,23 @@
+.DataView {
+  min-height: 50rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+  .Users {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .User {
+    background-color: blueviolet;
+    margin: 0.25rem 0.5rem;
+  }
+
+  .ErrorMsg {
+    color: red;
+  }
+}
